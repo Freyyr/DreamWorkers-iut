@@ -1,0 +1,175 @@
+html {
+    display: flex; 
+    flex-direction: column;
+    font-family: Lato;
+    background-image: url(../img/background.jpg);
+} 
+
+body{
+    background-color: white;
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    display : flex;
+    flex-direction: column;
+}
+
+header {
+    background: linear-gradient(#685CD7, #B4DFE6);
+    border-style: solid;
+    border-color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-top : 0.8%;
+    padding-bottom: 0.8%;
+}
+
+.navbar a {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: white;
+    font-size: 1.2em;
+    text-decoration:none; 
+}
+
+h1{
+    text-align:center;
+    font-family: Lato;
+}
+
+#logo
+{
+    display : block;
+    margin-left: auto;
+    margin-right: auto;
+    height : 300px;
+    width : auto;
+    margin-bottom: -5%;
+    margin-top : -2%;
+}
+
+#welcome {
+    display: block;
+    text-align: center;
+}   
+
+#text {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: #685CD7;
+    border-width: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+}
+
+#text p {
+    margin-left: 10%;
+    margin-right :10%;
+    text-align: center;
+}
+
+#login {
+   width:250px; 
+   height:150px; 
+   margin:auto;
+   padding-bottom: 100px;
+   background-color: white;
+}
+
+#inscription {
+   width:300px; 
+   margin:auto;
+   padding-bottom: 25px;
+   background-color: white;
+}
+
+footer{
+    background: linear-gradient(#685CD7, #B4DFE6);
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: white; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+}
+
+footer div {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+footer div #fb{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#fb{
+    height : 50px;
+    width : 50px;
+}
+#twitter{
+    height : 50px;
+    width : 50px;
+}
+
+#jc{
+    height : 10em;
+}
+
+#prod{
+    display:flex;
+    justify-content: center;
+
+}
+
+#prod div{
+    margin:5em;
+}
+
+#liste{
+    background: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#liste fieldset {
+    border-style: solid;
+    border-color: #685CD7;
+    border-width: 5px;
+}
+
+#panierVide {
+    text-align: center;
+}
+
+#warning{
+    color: red;
+}
+
+#message {
+    text-align : center;
+}
+
+#listeTitre {
+    text-align: left;
+    margin-left: 100px;
+    font-size: 1em;
+}
